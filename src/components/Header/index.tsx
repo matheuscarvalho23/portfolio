@@ -23,8 +23,8 @@ const Header: React.FC<Props> = ({ toogleTheme }) => {
           checked={title==='dark'}
           checkedIcon={false}
           uncheckedIcon={false}
-          height={10}
-          width={40}
+          height={25}
+          width={45}
           handleDiameter={20}
           onColor="#48D06D"
           offColor={shade(0.5, '#48D06D')}

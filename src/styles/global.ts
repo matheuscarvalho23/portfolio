@@ -13,6 +13,17 @@ const style = createGlobalStyle`
     color: ${props => props.theme.colors.text};
     font-family: 'Nunito', sans-serif
   }
+
+  .content {
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 30px;
+    max-width: 1000px;
+    height: 100%;
+    display: flex;
+    /* background: #FFF; */
+    align-self: center;
+  }
 `;
 
 export default style;
